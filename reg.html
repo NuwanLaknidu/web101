@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Register</title>
+  <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+
+  <div class="regform">
+   <h1>Registration Form</h1>
+  </div>
+
+  <div class="main">
+    <form action="index.html" method="post">
+      <div id="name">
+
+        <h2 class="name">Name</h2>
+        <input class="firstname" type="text" name="first_name" value="First Name">
+        <br><label class="firstlabel">first name</label>
+
+        <input class="lastname" type="text" name="first_name" value="Last Name">
+        <br><label class="lastlabel">last name</label>
+
+      </div>
+
+     <h2 class="name">Email</h2>
+     <input class="email" type="text" name="email" value="Email Address">
+
+     <h2 class="name">Phone Number</h2>
+     <input class="code" type="text" name="number" value="Phone Number">
+     <label class="phonenumber"></label>
+
+     <h2 class="name">Subject</h2>
+     <select class="drop" name="subject">
+       <option disabled="disabled" selected="selected">--choose--</option>
+       <option>Fighting & Spamming</option>
+       <option>Spamming</option>
+     </select>
+
+    <h2 class="name2">Photos</h2>
+
+    <input type="file" id="myFile" name="filename" accept=".png, .jpg, .jpeg">
+      <input type="file" id="myFile" name="filename" accept=".png, .jpg, .jpeg">
+        <input type="file" id="myFile" name="filename" accept=".png, .jpg, .jpeg">
+
+
+         <h2 class="name">Voice Clip</h2>
+
+
+ <!--   <a href="https://webaudiodemos.appspot.com/AudioRecorder/index.html" class="link" target="_blank">Record Voice</a>    -->
+
+         <input type="file" id="myFile" name="filename" accept=".wav">
+
+      <input class="reset" type="reset" name="reser" value="Reset">
+      <input class="submit" type="submit" name="submit" value="Submit">
+
+
+    </form>
+  </div>
+
+</body>
+</html>

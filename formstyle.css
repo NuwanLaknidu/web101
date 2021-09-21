@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-image: url(form.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+.regform {
+  width: 800px;
+  background-color: rgb(0,0,0,6);
+  margin: auto;
+  color: #FFFFFF;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.main {
+  background-color: rgb(0,0,0,0.5);
+  width: 800px;
+  margin: auto;
+
+}
+
+form {
+  padding: 10px;
+}
+
+#name {
+  width: 100%;
+  height: 100px;
+
+}
+.name {
+  margin-left: 25px;
+  margin-top: 30px;
+  width: 125px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+.name2 {
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 125px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+
+
+.firstname {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+
+}
+
+.lastname {
+  position: relative;
+  left: 400px;
+  top: -80px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.firstlabel {
+    color: #E5E5E5;
+    text-transform: capitalize;
+    position: relative;
+    left: 180px;
+    top: -45px;
+    line-height: 40px;
+    border-radius: 9px;
+    padding: 0 22px;
+    font-size: 14px;
+}
+
+.lastlabel {
+    color: #E5E5E5;
+    text-transform: capitalize;
+    position: relative;
+    left: 491px;
+    top: -87px;
+    line-height: 40px;
+    border-radius: 9px;
+    padding: 0 22px;
+    font-size: 14px;
+}
+
+.email {
+  position: relative;
+  width: 405px;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+
+}
+
+.code {
+  position: relative;
+  width: 200px;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+
+}
+
+.drop {
+  position: relative;
+  width: 200px;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 9px 22px;
+  font-size: 16px;
+
+}
+
+#myFile {
+  position: relative;
+  width: 200px;
+  left: 0px;
+  top: 20px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px 10px;
+  font-size: 15px;
+
+}
+
+.submit {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  left: 400px;
+  top: 0px;
+  padding: 10px 10px;
+  display: block;
+  background-color: #3BAF9F;
+  border-radius: 12px;
+  border: 2px solid #366473;
+  color: white;
+  cursor: pointer;
+  transition: 0.25px;
+}
+
+.reset {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  left: 300px;
+  top: 52.5px;
+  padding: 10px 10px;
+  display: block;
+  background-color: #3BAF9F;
+  border-radius: 12px;
+  border: 2px solid #366473;
+  color: white;
+  cursor: pointer;
+  transition: 0.25px;
+
+
+}
